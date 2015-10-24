@@ -59,9 +59,9 @@ The following files are available for the train and test data. Their description
 
 Created Tidy Data Set Variables:
 
-"Subject" 
+"Subject" (int)
 		identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
-"Activity" 
+"Activity" (factor)
 		1 WALKING
 		2 WALKING_UPSTAIRS
 		3 WALKING_DOWNSTAIRS
@@ -70,6 +70,7 @@ Created Tidy Data Set Variables:
 		6 LAYING
 		
 The mean of the following variables was computed. Data was groupedby subject and by a particular activity.
+(the following variables are all of type int)
 "tBodyAcc-mean()-X" 
 
 "tBodyAcc-mean()-Y" 
